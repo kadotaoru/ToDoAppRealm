@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //RealmDBを取得、変数realmに格納
+        //RealmDBを取得、変数realmに格納ｋ
         Realm.init(this);
         RealmConfiguration realmConfig = new RealmConfiguration.Builder().build();
         Realm realm = Realm.getInstance(realmConfig);
